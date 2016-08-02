@@ -289,9 +289,21 @@ p + .btn_wr {
 }
 
 .bg-image {
-  background:url(../images/comprar2.jpg) center no-repeat; /*imagen de menu precios*/
+  background:url(../images/comprar4.png) center no-repeat; /*imagen de menu precios*/
+  background-size: cover;
+ 
+}
+
+.bg-image2{
+  background:url(../images/comprar1.png) center no-repeat; /*imagen de menu precios*/
   background-size: cover;
 }
+
+.bg-image3{
+  background:url(../images/comprar3.png) center no-repeat; /*imagen de menu precios*/
+  background-size: cover;
+}
+
 .bg-image p {
   font-size: 16px;
 }
@@ -460,10 +472,10 @@ p + .btn_wr {
   margin-top: 0px;
   height: 388px;
   padding-bottom: 50px;
-  background-image: url(../images/hover.png);
-  -webkit-transition:all .5s linear;
+  /*background-image: url(../images/hover.png);
+  -webkit-transition:all .5s linear;*/
   
-  /*background: #ff9900;    /* baner compras al pasar el mouse */
+  background: #ff9900;    /* baner compras al pasar el mouse */
   
 }
 
