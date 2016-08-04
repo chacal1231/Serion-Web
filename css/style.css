@@ -366,7 +366,7 @@ p + .btn_wr {
 }
 .btn:hover,
 .btn2:hover {
-  background: #B60003; /* Color botones al pasar el mouse */
+  background: #ff9900; /* Color botones al pasar el mouse */
 }
 .btn:active,
 .btn2:active {
@@ -1348,10 +1348,33 @@ a[href^="callto:"]:hover {
 =========================================================*/
 
 div.tabla{
-	background-color:#FF0004;
+	background-color:#B60003;
 	}
+	
+/*========================================================
+					 Styles correo
+=========================================================*/
+#form1{
+	padding: 7px 6px;
+    width: 294px;
+    border: 3px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 6px #EEF5F7;
+    margin: 5px 0;
+	
+	
+	background: #FFF7DD;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
 
-
+	border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+	
+	}
 
 
 
